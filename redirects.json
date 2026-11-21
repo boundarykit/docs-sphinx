@@ -1,0 +1,822 @@
+[
+  {
+    "source": "/handbook/index",
+    "destination": "/index"
+  },
+  {
+    "source": "/handbook/quickstart",
+    "destination": "/quickstart"
+  },
+  {
+    "source": "/handbook/architecture",
+    "destination": "/architecture"
+  },
+  {
+    "source": "/handbook/glossary",
+    "destination": "/glossary"
+  },
+  {
+    "source": "/handbook/changelog",
+    "destination": "/changelog"
+  },
+  {
+    "source": "/handbook/documentation/core-concepts",
+    "destination": "/documentation/core-concepts"
+  },
+  {
+    "source": "/handbook/documentation/authenticate-requests",
+    "destination": "/documentation/authenticate-requests"
+  },
+  {
+    "source": "/handbook/documentation/design-boundaries",
+    "destination": "/documentation/design-boundaries"
+  },
+  {
+    "source": "/handbook/documentation/compose-policies",
+    "destination": "/documentation/compose-policies"
+  },
+  {
+    "source": "/handbook/documentation/isolate-sandboxes",
+    "destination": "/documentation/isolate-sandboxes"
+  },
+  {
+    "source": "/handbook/documentation/rate-limits",
+    "destination": "/documentation/rate-limits"
+  },
+  {
+    "source": "/handbook/documentation/migrate-from-v1-to-v2",
+    "destination": "/documentation/migrate-from-v1-to-v2"
+  },
+  {
+    "source": "/handbook/documentation/security-model",
+    "destination": "/documentation/security-model"
+  },
+  {
+    "source": "/handbook/documentation/session-lifecycle",
+    "destination": "/documentation/session-lifecycle"
+  },
+  {
+    "source": "/handbook/documentation/token-scopes",
+    "destination": "/documentation/token-scopes"
+  },
+  {
+    "source": "/handbook/test/policy-fixtures",
+    "destination": "/test/policy-fixtures"
+  },
+  {
+    "source": "/handbook/test/golden-decisions",
+    "destination": "/test/golden-decisions"
+  },
+  {
+    "source": "/handbook/test/replay-sessions",
+    "destination": "/test/replay-sessions"
+  },
+  {
+    "source": "/handbook/test/negative-cases",
+    "destination": "/test/negative-cases"
+  },
+  {
+    "source": "/handbook/test/nested-rule-tests",
+    "destination": "/test/nested-rule-tests"
+  },
+  {
+    "source": "/handbook/test/sandbox-isolation-tests",
+    "destination": "/test/sandbox-isolation-tests"
+  },
+  {
+    "source": "/handbook/test/token-expiry-tests",
+    "destination": "/test/token-expiry-tests"
+  },
+  {
+    "source": "/handbook/test/tenant-separation-tests",
+    "destination": "/test/tenant-separation-tests"
+  },
+  {
+    "source": "/handbook/test/baseline-comparisons",
+    "destination": "/test/baseline-comparisons"
+  },
+  {
+    "source": "/handbook/test/latency-budgets",
+    "destination": "/test/latency-budgets"
+  },
+  {
+    "source": "/handbook/test/evaluation-reports",
+    "destination": "/test/evaluation-reports"
+  },
+  {
+    "source": "/handbook/test/release-acceptance",
+    "destination": "/test/release-acceptance"
+  },
+  {
+    "source": "/handbook/cookbook/limit-tool-access",
+    "destination": "/cookbook/limit-tool-access"
+  },
+  {
+    "source": "/handbook/cookbook/scope-a-support-bot",
+    "destination": "/cookbook/scope-a-support-bot"
+  },
+  {
+    "source": "/handbook/cookbook/isolate-a-preview-agent",
+    "destination": "/cookbook/isolate-a-preview-agent"
+  },
+  {
+    "source": "/handbook/cookbook/rotate-an-api-key",
+    "destination": "/cookbook/rotate-an-api-key"
+  },
+  {
+    "source": "/handbook/cookbook/export-audit-evidence",
+    "destination": "/cookbook/export-audit-evidence"
+  },
+  {
+    "source": "/handbook/cookbook/replay-a-denied-call",
+    "destination": "/cookbook/replay-a-denied-call"
+  },
+  {
+    "source": "/handbook/cookbook/detect-a-noisy-agent",
+    "destination": "/cookbook/detect-a-noisy-agent"
+  },
+  {
+    "source": "/handbook/cookbook/review-policy-drift",
+    "destination": "/cookbook/review-policy-drift"
+  },
+  {
+    "source": "/handbook/cookbook/expire-a-session",
+    "destination": "/cookbook/expire-a-session"
+  },
+  {
+    "source": "/handbook/cookbook/route-an-alert",
+    "destination": "/cookbook/route-an-alert"
+  },
+  {
+    "source": "/handbook/cookbook/test-nested-rules",
+    "destination": "/cookbook/test-nested-rules"
+  },
+  {
+    "source": "/handbook/cookbook/trace-a-webhook",
+    "destination": "/cookbook/trace-a-webhook"
+  },
+  {
+    "source": "/handbook/cookbook/inspect-usage-spikes",
+    "destination": "/cookbook/inspect-usage-spikes"
+  },
+  {
+    "source": "/handbook/cookbook/stage-a-policy-rollout",
+    "destination": "/cookbook/stage-a-policy-rollout"
+  },
+  {
+    "source": "/handbook/integrations/openai",
+    "destination": "/integrations/openai"
+  },
+  {
+    "source": "/handbook/integrations/anthropic",
+    "destination": "/integrations/anthropic"
+  },
+  {
+    "source": "/handbook/integrations/langchain",
+    "destination": "/integrations/langchain"
+  },
+  {
+    "source": "/handbook/integrations/crewai",
+    "destination": "/integrations/crewai"
+  },
+  {
+    "source": "/handbook/integrations/cloudflare-workers",
+    "destination": "/integrations/cloudflare-workers"
+  },
+  {
+    "source": "/handbook/integrations/aws-lambda",
+    "destination": "/integrations/aws-lambda"
+  },
+  {
+    "source": "/handbook/integrations/datadog",
+    "destination": "/integrations/datadog"
+  },
+  {
+    "source": "/handbook/integrations/pagerduty",
+    "destination": "/integrations/pagerduty"
+  },
+  {
+    "source": "/handbook/integrations/slack",
+    "destination": "/integrations/slack"
+  },
+  {
+    "source": "/handbook/integrations/okta",
+    "destination": "/integrations/okta"
+  },
+  {
+    "source": "/handbook/integrations/github-actions",
+    "destination": "/integrations/github-actions"
+  },
+  {
+    "source": "/handbook/integrations/terraform",
+    "destination": "/integrations/terraform"
+  },
+  {
+    "source": "/handbook/mcp/server-overview",
+    "destination": "/mcp/server-overview"
+  },
+  {
+    "source": "/handbook/mcp/tool-catalog",
+    "destination": "/mcp/tool-catalog"
+  },
+  {
+    "source": "/handbook/mcp/authentication",
+    "destination": "/mcp/authentication"
+  },
+  {
+    "source": "/handbook/mcp/local-stdio",
+    "destination": "/mcp/local-stdio"
+  },
+  {
+    "source": "/handbook/mcp/hosted-sse",
+    "destination": "/mcp/hosted-sse"
+  },
+  {
+    "source": "/handbook/mcp/claude-setup",
+    "destination": "/mcp/claude-setup"
+  },
+  {
+    "source": "/handbook/mcp/cursor-setup",
+    "destination": "/mcp/cursor-setup"
+  },
+  {
+    "source": "/handbook/mcp/codex-setup",
+    "destination": "/mcp/codex-setup"
+  },
+  {
+    "source": "/handbook/mcp/resource-discovery",
+    "destination": "/mcp/resource-discovery"
+  },
+  {
+    "source": "/handbook/mcp/tool-permissions",
+    "destination": "/mcp/tool-permissions"
+  },
+  {
+    "source": "/handbook/bac/yaml-schema",
+    "destination": "/bac/yaml-schema"
+  },
+  {
+    "source": "/handbook/bac/cli-installation",
+    "destination": "/bac/cli-installation"
+  },
+  {
+    "source": "/handbook/bac/initialize-a-workspace",
+    "destination": "/bac/initialize-a-workspace"
+  },
+  {
+    "source": "/handbook/bac/validate-a-manifest",
+    "destination": "/bac/validate-a-manifest"
+  },
+  {
+    "source": "/handbook/bac/plan-changes",
+    "destination": "/bac/plan-changes"
+  },
+  {
+    "source": "/handbook/bac/apply-revisions",
+    "destination": "/bac/apply-revisions"
+  },
+  {
+    "source": "/handbook/bac/detect-drift",
+    "destination": "/bac/detect-drift"
+  },
+  {
+    "source": "/handbook/bac/gitops-workflows",
+    "destination": "/bac/gitops-workflows"
+  },
+  {
+    "source": "/handbook/bac/promote-configuration",
+    "destination": "/bac/promote-configuration"
+  },
+  {
+    "source": "/handbook/bac/recover-a-revision",
+    "destination": "/bac/recover-a-revision"
+  },
+  {
+    "source": "/handbook/cicd/github-actions",
+    "destination": "/cicd/github-actions"
+  },
+  {
+    "source": "/handbook/cicd/gitlab-ci",
+    "destination": "/cicd/gitlab-ci"
+  },
+  {
+    "source": "/handbook/cicd/pr-policy-gates",
+    "destination": "/cicd/pr-policy-gates"
+  },
+  {
+    "source": "/handbook/cicd/preview-environments",
+    "destination": "/cicd/preview-environments"
+  },
+  {
+    "source": "/handbook/cicd/rollback",
+    "destination": "/cicd/rollback"
+  },
+  {
+    "source": "/handbook/cicd/protected-branches",
+    "destination": "/cicd/protected-branches"
+  },
+  {
+    "source": "/handbook/cicd/artifact-promotion",
+    "destination": "/cicd/artifact-promotion"
+  },
+  {
+    "source": "/handbook/cicd/secret-injection",
+    "destination": "/cicd/secret-injection"
+  },
+  {
+    "source": "/handbook/cicd/failure-diagnostics",
+    "destination": "/cicd/failure-diagnostics"
+  },
+  {
+    "source": "/handbook/cicd/release-evidence",
+    "destination": "/cicd/release-evidence"
+  },
+  {
+    "source": "/handbook/administration/workspace-provisioning",
+    "destination": "/administration/workspace-provisioning"
+  },
+  {
+    "source": "/handbook/administration/rbac",
+    "destination": "/administration/rbac"
+  },
+  {
+    "source": "/handbook/administration/sso-and-saml",
+    "destination": "/administration/sso-and-saml"
+  },
+  {
+    "source": "/handbook/administration/audit-exports",
+    "destination": "/administration/audit-exports"
+  },
+  {
+    "source": "/handbook/administration/workspace-isolation",
+    "destination": "/administration/workspace-isolation"
+  },
+  {
+    "source": "/handbook/administration/retention",
+    "destination": "/administration/retention"
+  },
+  {
+    "source": "/handbook/administration/billing",
+    "destination": "/administration/billing"
+  },
+  {
+    "source": "/handbook/administration/service-accounts",
+    "destination": "/administration/service-accounts"
+  },
+  {
+    "source": "/handbook/administration/membership-reviews",
+    "destination": "/administration/membership-reviews"
+  },
+  {
+    "source": "/handbook/administration/organization-settings",
+    "destination": "/administration/organization-settings"
+  },
+  {
+    "source": "/handbook/monitor/live-telemetry",
+    "destination": "/monitor/live-telemetry"
+  },
+  {
+    "source": "/handbook/monitor/anomaly-alerts",
+    "destination": "/monitor/anomaly-alerts"
+  },
+  {
+    "source": "/handbook/monitor/decision-slos",
+    "destination": "/monitor/decision-slos"
+  },
+  {
+    "source": "/handbook/monitor/request-traces",
+    "destination": "/monitor/request-traces"
+  },
+  {
+    "source": "/handbook/monitor/delivery-latency",
+    "destination": "/monitor/delivery-latency"
+  },
+  {
+    "source": "/handbook/monitor/error-budgets",
+    "destination": "/monitor/error-budgets"
+  },
+  {
+    "source": "/handbook/monitor/triage-dashboards",
+    "destination": "/monitor/triage-dashboards"
+  },
+  {
+    "source": "/handbook/monitor/usage-reports",
+    "destination": "/monitor/usage-reports"
+  },
+  {
+    "source": "/learn/index",
+    "destination": "/index"
+  },
+  {
+    "source": "/learn/quickstart",
+    "destination": "/quickstart"
+  },
+  {
+    "source": "/learn/architecture",
+    "destination": "/architecture"
+  },
+  {
+    "source": "/learn/glossary",
+    "destination": "/glossary"
+  },
+  {
+    "source": "/learn/changelog",
+    "destination": "/changelog"
+  },
+  {
+    "source": "/learn/documentation/core-concepts",
+    "destination": "/documentation/core-concepts"
+  },
+  {
+    "source": "/learn/documentation/authenticate-requests",
+    "destination": "/documentation/authenticate-requests"
+  },
+  {
+    "source": "/learn/documentation/design-boundaries",
+    "destination": "/documentation/design-boundaries"
+  },
+  {
+    "source": "/learn/documentation/compose-policies",
+    "destination": "/documentation/compose-policies"
+  },
+  {
+    "source": "/learn/documentation/isolate-sandboxes",
+    "destination": "/documentation/isolate-sandboxes"
+  },
+  {
+    "source": "/learn/documentation/rate-limits",
+    "destination": "/documentation/rate-limits"
+  },
+  {
+    "source": "/learn/documentation/migrate-from-v1-to-v2",
+    "destination": "/documentation/migrate-from-v1-to-v2"
+  },
+  {
+    "source": "/learn/documentation/security-model",
+    "destination": "/documentation/security-model"
+  },
+  {
+    "source": "/learn/documentation/session-lifecycle",
+    "destination": "/documentation/session-lifecycle"
+  },
+  {
+    "source": "/learn/documentation/token-scopes",
+    "destination": "/documentation/token-scopes"
+  },
+  {
+    "source": "/learn/test/policy-fixtures",
+    "destination": "/test/policy-fixtures"
+  },
+  {
+    "source": "/learn/test/golden-decisions",
+    "destination": "/test/golden-decisions"
+  },
+  {
+    "source": "/learn/test/replay-sessions",
+    "destination": "/test/replay-sessions"
+  },
+  {
+    "source": "/learn/test/negative-cases",
+    "destination": "/test/negative-cases"
+  },
+  {
+    "source": "/learn/test/nested-rule-tests",
+    "destination": "/test/nested-rule-tests"
+  },
+  {
+    "source": "/learn/test/sandbox-isolation-tests",
+    "destination": "/test/sandbox-isolation-tests"
+  },
+  {
+    "source": "/learn/test/token-expiry-tests",
+    "destination": "/test/token-expiry-tests"
+  },
+  {
+    "source": "/learn/test/tenant-separation-tests",
+    "destination": "/test/tenant-separation-tests"
+  },
+  {
+    "source": "/learn/test/baseline-comparisons",
+    "destination": "/test/baseline-comparisons"
+  },
+  {
+    "source": "/learn/test/latency-budgets",
+    "destination": "/test/latency-budgets"
+  },
+  {
+    "source": "/learn/test/evaluation-reports",
+    "destination": "/test/evaluation-reports"
+  },
+  {
+    "source": "/learn/test/release-acceptance",
+    "destination": "/test/release-acceptance"
+  },
+  {
+    "source": "/learn/cookbook/limit-tool-access",
+    "destination": "/cookbook/limit-tool-access"
+  },
+  {
+    "source": "/learn/cookbook/scope-a-support-bot",
+    "destination": "/cookbook/scope-a-support-bot"
+  },
+  {
+    "source": "/learn/cookbook/isolate-a-preview-agent",
+    "destination": "/cookbook/isolate-a-preview-agent"
+  },
+  {
+    "source": "/learn/cookbook/rotate-an-api-key",
+    "destination": "/cookbook/rotate-an-api-key"
+  },
+  {
+    "source": "/learn/cookbook/export-audit-evidence",
+    "destination": "/cookbook/export-audit-evidence"
+  },
+  {
+    "source": "/learn/cookbook/replay-a-denied-call",
+    "destination": "/cookbook/replay-a-denied-call"
+  },
+  {
+    "source": "/learn/cookbook/detect-a-noisy-agent",
+    "destination": "/cookbook/detect-a-noisy-agent"
+  },
+  {
+    "source": "/learn/cookbook/review-policy-drift",
+    "destination": "/cookbook/review-policy-drift"
+  },
+  {
+    "source": "/learn/cookbook/expire-a-session",
+    "destination": "/cookbook/expire-a-session"
+  },
+  {
+    "source": "/learn/cookbook/route-an-alert",
+    "destination": "/cookbook/route-an-alert"
+  },
+  {
+    "source": "/learn/cookbook/test-nested-rules",
+    "destination": "/cookbook/test-nested-rules"
+  },
+  {
+    "source": "/learn/cookbook/trace-a-webhook",
+    "destination": "/cookbook/trace-a-webhook"
+  },
+  {
+    "source": "/learn/cookbook/inspect-usage-spikes",
+    "destination": "/cookbook/inspect-usage-spikes"
+  },
+  {
+    "source": "/learn/cookbook/stage-a-policy-rollout",
+    "destination": "/cookbook/stage-a-policy-rollout"
+  },
+  {
+    "source": "/learn/integrations/openai",
+    "destination": "/integrations/openai"
+  },
+  {
+    "source": "/learn/integrations/anthropic",
+    "destination": "/integrations/anthropic"
+  },
+  {
+    "source": "/learn/integrations/langchain",
+    "destination": "/integrations/langchain"
+  },
+  {
+    "source": "/learn/integrations/crewai",
+    "destination": "/integrations/crewai"
+  },
+  {
+    "source": "/learn/integrations/cloudflare-workers",
+    "destination": "/integrations/cloudflare-workers"
+  },
+  {
+    "source": "/learn/integrations/aws-lambda",
+    "destination": "/integrations/aws-lambda"
+  },
+  {
+    "source": "/learn/integrations/datadog",
+    "destination": "/integrations/datadog"
+  },
+  {
+    "source": "/learn/integrations/pagerduty",
+    "destination": "/integrations/pagerduty"
+  },
+  {
+    "source": "/learn/integrations/slack",
+    "destination": "/integrations/slack"
+  },
+  {
+    "source": "/learn/integrations/okta",
+    "destination": "/integrations/okta"
+  },
+  {
+    "source": "/learn/integrations/github-actions",
+    "destination": "/integrations/github-actions"
+  },
+  {
+    "source": "/learn/integrations/terraform",
+    "destination": "/integrations/terraform"
+  },
+  {
+    "source": "/learn/mcp/server-overview",
+    "destination": "/mcp/server-overview"
+  },
+  {
+    "source": "/learn/mcp/tool-catalog",
+    "destination": "/mcp/tool-catalog"
+  },
+  {
+    "source": "/learn/mcp/authentication",
+    "destination": "/mcp/authentication"
+  },
+  {
+    "source": "/learn/mcp/local-stdio",
+    "destination": "/mcp/local-stdio"
+  },
+  {
+    "source": "/learn/mcp/hosted-sse",
+    "destination": "/mcp/hosted-sse"
+  },
+  {
+    "source": "/learn/mcp/claude-setup",
+    "destination": "/mcp/claude-setup"
+  },
+  {
+    "source": "/learn/mcp/cursor-setup",
+    "destination": "/mcp/cursor-setup"
+  },
+  {
+    "source": "/learn/mcp/codex-setup",
+    "destination": "/mcp/codex-setup"
+  },
+  {
+    "source": "/learn/mcp/resource-discovery",
+    "destination": "/mcp/resource-discovery"
+  },
+  {
+    "source": "/learn/mcp/tool-permissions",
+    "destination": "/mcp/tool-permissions"
+  },
+  {
+    "source": "/learn/bac/yaml-schema",
+    "destination": "/bac/yaml-schema"
+  },
+  {
+    "source": "/learn/bac/cli-installation",
+    "destination": "/bac/cli-installation"
+  },
+  {
+    "source": "/learn/bac/initialize-a-workspace",
+    "destination": "/bac/initialize-a-workspace"
+  },
+  {
+    "source": "/learn/bac/validate-a-manifest",
+    "destination": "/bac/validate-a-manifest"
+  },
+  {
+    "source": "/learn/bac/plan-changes",
+    "destination": "/bac/plan-changes"
+  },
+  {
+    "source": "/learn/bac/apply-revisions",
+    "destination": "/bac/apply-revisions"
+  },
+  {
+    "source": "/learn/bac/detect-drift",
+    "destination": "/bac/detect-drift"
+  },
+  {
+    "source": "/learn/bac/gitops-workflows",
+    "destination": "/bac/gitops-workflows"
+  },
+  {
+    "source": "/learn/bac/promote-configuration",
+    "destination": "/bac/promote-configuration"
+  },
+  {
+    "source": "/learn/bac/recover-a-revision",
+    "destination": "/bac/recover-a-revision"
+  },
+  {
+    "source": "/learn/cicd/github-actions",
+    "destination": "/cicd/github-actions"
+  },
+  {
+    "source": "/learn/cicd/gitlab-ci",
+    "destination": "/cicd/gitlab-ci"
+  },
+  {
+    "source": "/learn/cicd/pr-policy-gates",
+    "destination": "/cicd/pr-policy-gates"
+  },
+  {
+    "source": "/learn/cicd/preview-environments",
+    "destination": "/cicd/preview-environments"
+  },
+  {
+    "source": "/learn/cicd/rollback",
+    "destination": "/cicd/rollback"
+  },
+  {
+    "source": "/learn/cicd/protected-branches",
+    "destination": "/cicd/protected-branches"
+  },
+  {
+    "source": "/learn/cicd/artifact-promotion",
+    "destination": "/cicd/artifact-promotion"
+  },
+  {
+    "source": "/learn/cicd/secret-injection",
+    "destination": "/cicd/secret-injection"
+  },
+  {
+    "source": "/learn/cicd/failure-diagnostics",
+    "destination": "/cicd/failure-diagnostics"
+  },
+  {
+    "source": "/learn/cicd/release-evidence",
+    "destination": "/cicd/release-evidence"
+  },
+  {
+    "source": "/learn/administration/workspace-provisioning",
+    "destination": "/administration/workspace-provisioning"
+  },
+  {
+    "source": "/learn/administration/rbac",
+    "destination": "/administration/rbac"
+  },
+  {
+    "source": "/learn/administration/sso-and-saml",
+    "destination": "/administration/sso-and-saml"
+  },
+  {
+    "source": "/learn/administration/audit-exports",
+    "destination": "/administration/audit-exports"
+  },
+  {
+    "source": "/learn/administration/workspace-isolation",
+    "destination": "/administration/workspace-isolation"
+  },
+  {
+    "source": "/learn/administration/retention",
+    "destination": "/administration/retention"
+  },
+  {
+    "source": "/learn/administration/billing",
+    "destination": "/administration/billing"
+  },
+  {
+    "source": "/learn/administration/service-accounts",
+    "destination": "/administration/service-accounts"
+  },
+  {
+    "source": "/learn/administration/membership-reviews",
+    "destination": "/administration/membership-reviews"
+  },
+  {
+    "source": "/learn/administration/organization-settings",
+    "destination": "/administration/organization-settings"
+  },
+  {
+    "source": "/learn/monitor/live-telemetry",
+    "destination": "/monitor/live-telemetry"
+  },
+  {
+    "source": "/learn/monitor/anomaly-alerts",
+    "destination": "/monitor/anomaly-alerts"
+  },
+  {
+    "source": "/learn/monitor/decision-slos",
+    "destination": "/monitor/decision-slos"
+  },
+  {
+    "source": "/learn/monitor/request-traces",
+    "destination": "/monitor/request-traces"
+  },
+  {
+    "source": "/learn/monitor/delivery-latency",
+    "destination": "/monitor/delivery-latency"
+  },
+  {
+    "source": "/learn/monitor/error-budgets",
+    "destination": "/monitor/error-budgets"
+  },
+  {
+    "source": "/learn/monitor/triage-dashboards",
+    "destination": "/monitor/triage-dashboards"
+  },
+  {
+    "source": "/learn/monitor/usage-reports",
+    "destination": "/monitor/usage-reports"
+  },
+  {
+    "source": "/reference-guide/index",
+    "destination": "/index"
+  },
+  {
+    "source": "/reference-guide/quickstart",
+    "destination": "/quickstart"
+  },
+  {
+    "source": "/reference-guide/architecture",
+    "destination": "/architecture"
+  }
+]
