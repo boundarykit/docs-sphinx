@@ -1,0 +1,18 @@
+openapi: 3.0.3
+info:
+  title: Gateway compatibility API
+  version: '1.9'
+paths:
+  /v1/status/summary:
+    get:
+      summary: Read gateway status
+      x-boundarykit-tier: standard
+      responses:
+        '200':
+          description: Ready
+        '503':
+          description: Unavailable
+          content:
+            application/json:
+              schema:
+                $ref: ./schemas/shared-error.yaml

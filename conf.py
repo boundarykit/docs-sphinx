@@ -23,3 +23,10 @@ redirects = {
     )
     for item in json.loads((ROOT / "redirects.json").read_text())
 }
+
+templates_path = ["_templates"]
+myst_enable_extensions = ["dollarmath"]
+myst_heading_anchors = 3
+html_theme_options.update({"light_css_variables":{"color-brand-primary":"#1D4ED8","color-brand-content":"#1D4ED8"},"dark_css_variables":{"color-background-primary":"#090D16","color-brand-content":"#38BDF8","color-brand-primary":"#F59E0B"},"announcement":"BoundaryKit v2 · Policy evaluation and audit reference"})
+
+html_additional_pages = {"404": "missing.html"}

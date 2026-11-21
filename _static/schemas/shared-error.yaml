@@ -1,0 +1,7 @@
+properties:
+  detail:
+    nullable: true
+    type: string
+  message:
+    type: string
+type: object

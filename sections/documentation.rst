@@ -23,18 +23,18 @@ Documentation
    /test/replay-sessions
    /test/negative-cases
    /test/nested-rule-tests
-   /test/sandbox-isolation-tests
-   /test/token-expiry-tests
-   /test/tenant-separation-tests
-   /test/baseline-comparisons
-   /test/latency-budgets
-   /test/evaluation-reports
-   /test/release-acceptance
-   /cookbook/limit-tool-access
-   /cookbook/scope-a-support-bot
-   /cookbook/isolate-a-preview-agent
-   /cookbook/rotate-an-api-key
-   /cookbook/export-audit-evidence
+   Check Sandbox isolation tests </test/sandbox-isolation-tests>
+   Check Token expiry tests </test/token-expiry-tests>
+   Check Tenant separation tests </test/tenant-separation-tests>
+   Check Baseline comparisons </test/baseline-comparisons>
+   Check Latency budgets </test/latency-budgets>
+   Check Evaluation reports </test/evaluation-reports>
+   Check Release acceptance </test/release-acceptance>
+   Check Limit tool access </cookbook/limit-tool-access>
+   Check Scope a support bot </cookbook/scope-a-support-bot>
+   Check Isolate a preview agent </cookbook/isolate-a-preview-agent>
+   Check Rotate an API key </cookbook/rotate-an-api-key>
+   Check Export audit evidence </cookbook/export-audit-evidence>
    /cookbook/replay-a-denied-call
    /cookbook/detect-a-noisy-agent
    /cookbook/review-policy-drift
@@ -75,3 +75,15 @@ Documentation
    /monitor/triage-dashboards
    /monitor/usage-reports
 
+   /documentation/troubleshooting
+   /administration/security-compliance
+   /api-reference
+   /mcp
+   /bac
+   /cookbook/BoundaryQL-Reference
+   /documentation/policy-expression-reference
+   /documentation/audit-event-catalog
+   /decision-latency
+
+   /v1/documentation/authenticate-requests
+   /v2/documentation/authenticate-requests
